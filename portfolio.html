@@ -29,9 +29,21 @@
             <!--contacts-->
             <address class="address">
                 <ul class="address-list list">
-                    <li class="address-list-link"><a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    </li>
-                    <li class="address-list-link"><a class="tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    <li class="address-list-item">
+    
+                        <a class="address-list-link" href="mailto:info@devstudio.com">
+                            <svg class="logo-mail" width="16px" height=12>
+                                <use href="./images/sprite.svg#mail"></use>
+                            </svg>
+                            info@devstudio.com</a></li>
+    
+                    <li class="address-list-item">
+    
+                        <a class="address-list-link" href="tel:+380961111111">
+    
+                            <svg class="logo-phone" width="10" height=16>
+                                <use href="./images/sprite.svg#phone"></use>
+                            </svg> +38 096 111 11 11 </a></li>
                 </ul>
             </address>
     
@@ -50,7 +62,7 @@
                 </ul>
                 <ul class="portfolio-work-list list">
                     <li class="portfolio-work-list-item">
-                        <a href="">                          
+                        <a class="portfolio-work-link" href="">                          
                         <img class="portfolio-work-list-photo" src="./portfolio-images/1-technocryk.jpg" width="370" height="294" alt="ноутбук">
                         <div class="portfolio-work-list-content">
                         <h2 class="portfolio-work-name">Технокряк</h2>
@@ -129,23 +141,52 @@
 
     </main>
 
-        <footer class="footer">
-            <div class="container">
-                <!--contacts-->
-                <a class="logo" href="./index.html" aria-label="логотип сайта">Web<span
-                        class="logo-styles-color-footer">Studio</span> </a>
-                <address class="address">
-                    <ul class="address-list-footer list">
-                        <li class="address-list-footer-item"><a class="address-map" href="https://goo.gl/maps/iQH69UE3L2xQG6Z59"
-                                target="_blank">г. Киев, пр-т Леси
-                                Украинки, 26</a></li>
-                        <li class="address-list-footer-item"><a class="mail" href="mailto:info@example.com">info@example.com</a>
-                        </li>
-                        <li class="address-list-footer-item"><a class="tel" href="tel:+380991111111">+38 099 111 11 11</a></li>
-                    </ul>
-                </address>
-            </div>
-        </footer>
+                <footer class="footer">
+                    <div class="container">
+                        <!--contacts-->
+                        <section class="contacts-footer">
+                            <a class="logo" href="./index.html" aria-label="логотип сайта">Web<span
+                                    class="logo-styles-color-footer">Studio</span>
+                            </a>
+                            <address class="address">
+                                <ul class="address-list-footer list">
+                                    <li class="address-list-footer-item"><a class="address-map"
+                                            href="https://goo.gl/maps/iQH69UE3L2xQG6Z59" target="_blank">г. Киев, пр-т Леси
+                                            Украинки, 26</a></li>
+                                    <li class="address-list-footer-item"><a class="mail"
+                                            href="mailto:info@example.com">info@example.com</a></li>
+                                    <li class="address-list-footer-item"><a class="tel" href="tel:+380991111111">+38 099 111 11 11</a>
+                                    </li>
+                                </ul>
+                            </address>
+                        </section>
+                        <section class="join-us">
+                            <h2 class="join-us-title">ПРИСОИДЕНЯЙТЕСЬ</h2>
+                            <ul class="join-us-list list">
+                                <li class="join-us-list-item">
+                                    <a class="join-us-list-link" href=""><svg class="join-us-list-icon">
+                                            <use href="./images/sprite.svg#instagram"></use>
+                                        </svg></a>
+                                </li>
+                                <li class="join-us-list-item">
+                                    <a class="join-us-list-link" href=""><svg class="join-us-list-icon">
+                                            <use href="./images/sprite.svg#twitter"></use>
+                                        </svg></a>
+                                </li>
+                                <li class="join-us-list-item">
+                                    <a class="join-us-list-link" href=""><svg class="join-us-list-icon">
+                                            <use href="./images/sprite.svg#facebook"></use>
+                                        </svg></a>
+                                </li>
+                                <li class="join-us-list-item">
+                                    <a class="join-us-list-link" href=""><svg class="join-us-list-icon">
+                                            <use href="./images/sprite.svg#linkedin"></use>
+                                        </svg></a>
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                </footer>
 </body>
 
 </html>
