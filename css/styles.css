@@ -129,6 +129,9 @@ img {
 .nav-list :visited {
   color: var(--title-text-color);
 }
+.nav-list .nav-link-active {
+  color: var(--acent-color);
+}
 .address-list :visited {
   color: var(--text-color);
 }
@@ -413,7 +416,6 @@ img {
 }
 .join-us {
   margin-left: 70px;
-  margin-top: 8px;
 }
 .join-us-list {
   display: flex;
@@ -453,6 +455,7 @@ img {
 .address-list-footer-item {
   display: inline-block;
   display: flex;
+  color: var(--text-color);
 }
 .address-list-footer-item:not(:last-child) {
   margin-bottom: 9px;
@@ -469,6 +472,9 @@ img {
 }
 .address-map :visited {
   color: var(--text-secondary-color);
+}
+.address-list-footer-link {
+  color: var(--text-color);
 }
 .address-list-footer {
   font-weight: 400;
