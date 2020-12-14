@@ -419,7 +419,6 @@ img {
 }
 .join-us-list {
   display: flex;
-  justify-content: center;
 }
 .join-us-list-link {
   display: flex;
@@ -447,6 +446,7 @@ img {
   padding-top: 64px;
   padding-bottom: 56px;
   display: flex;
+  align-items: baseline;
 }
 .footer .logo {
   display: inline-block;
@@ -526,10 +526,15 @@ img {
 .portfolio-work-list-item:nth-last-child(-n + 3) {
   margin-bottom: 0px;
 }
-.portfolio-work-list-item:hover {
+.portfolio-work-link {
+  display: block;
+}
+.portfolio-work-link:hover,
+.portfolio-work-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
 button {
   background-color: transparent;
   display: inline-block;
